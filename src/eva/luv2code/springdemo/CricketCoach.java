@@ -27,12 +27,13 @@ public class CricketCoach implements Coach {
 	@Override
 	public String getDailyWorkOut() {
 		System.out.println("Do some crickety crickety");
-		return null;
+		return "DahmeenteGyesnie";
 	}
 
 	
 	@Override
 	public String getDailyFortune() {
+		System.out.println("snaptegeitnog");
 		return fortuneService.getFortune();
 	}
 
