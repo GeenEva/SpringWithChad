@@ -20,8 +20,13 @@
     
     <bean 	id="myCricketCoach"
     		class="eva.luv2code.springdemo.CricketCoach">
+    		
     		<!-- set up setter injection -->
     		<property name="fortuneService" ref="myFortuneService"/>
+    		
+    		<!-- inject literal values -->
+    		<property name="email" value="eva@luvs2code.nl" />
+    		<property name="team" value="The WhoopWhoops" />
     </bean>
    
 </beans>
