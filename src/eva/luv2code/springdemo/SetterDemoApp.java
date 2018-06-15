@@ -23,7 +23,18 @@ public class SetterDemoApp {
 		//close the context
 		context.close();
 		
-
-	}
+		/*OUTPUT:
+			inside constructor
+			Inside no-arg constructor from CricketCoach
+			Inside setter method setFortuneService from CricketCoach
+			Inside setEmail() from CricketCoach
+			Inside setTeam() from CricketCoach
+			Inside getDailyFortune() from CricketCoach
+			Inside getDailyWorkOut(): Do some crickety crickety
+			Return value for getDailyFortune : Today is you happylucky day
+			Return value getDailyWorkOut inside CricketCoach
+			yourEmail@mal.com
+			The Coolias & Poolia's
+*/	}
 
 }
