@@ -11,4 +11,8 @@ public class MyApp {
 		System.out.println(theCoach.getDailyWorkOut());
 	}
 
+	Coach ThaCoach = new TrackCoach();
+	
+	
+	
 }
